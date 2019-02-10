@@ -1,5 +1,6 @@
 from django.db import models
-from shop.models import Product
+
+from ecommerce.apps.shop.models import Product
 
 
 class Order(models.Model):
